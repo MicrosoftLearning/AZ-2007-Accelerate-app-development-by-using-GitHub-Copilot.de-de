@@ -2493,7 +2493,7 @@ Führen Sie die folgenden Schritte aus, um diesen Abschnitt der Übung zu absolv
 
 1. Speichern Sie die Änderungen in der JsonData.cs-Datei.
 
-1. Erstellen Sie Ihre Lösung, um sicherzustellen, dass keine Fehler vorhanden sind.
+1. Erstellen Sie Ihre Lösung so, dass keine Fehler auftreten.
 
     Es werden Warnungen angezeigt. Sie können sie vorerst ignorieren.
 
@@ -2660,7 +2660,7 @@ Führen Sie die folgenden Schritte aus, um diesen Abschnitt der Übung zu absolv
 
 1. Speichern Sie Ihre Änderungen in der JsonLoanRepository.cs-Datei.
 
-1. Erstellen Sie Ihre Lösung, um sicherzustellen, dass keine Fehler vorhanden sind.
+1. Erstellen Sie Ihre Lösung so, dass keine Fehler auftreten.
 
     Es werden Warnungen angezeigt. Sie können sie vorerst ignorieren.
 
