@@ -1,100 +1,100 @@
 ---
 demo:
-    title: 'Demo: Generate project documentation by using GitHub Copilot Chat'
-    module: 'Module 2: Generate documentation using GitHub Copilot tools'
+  title: 'Demo: Generieren einer Projektdokumentation mithilfe von GitHub Copilot Chat'
+  module: 'Module 2: Generate documentation using GitHub Copilot tools'
 ---
 
-# Demo: Generate project documentation by using GitHub Copilot Chat
+# Demo: Generieren einer Projektdokumentation mithilfe von GitHub Copilot Chat
 
-## Instructions
+## Anweisungen
 
-The demo activities are designed for an environment that includes the following resources:
+Die Demoaktivitäten sind für eine Umgebung konzipiert, die die folgenden Ressourcen enthält:
 
 - Visual Studio Code.
-- The C# Dev Kit extension for Visual Studio Code.
-- The GitHub Copilot and GitHub Copilot Chat extensions for Visual Studio Code. A GitHub account with an active subscription for GitHub Copilot is required.
-- Sample code projects created using C#.
+- C# Dev Kit-Erweiterung für Visual Studio Code
+- GitHub Copilot- und GitHub Copilot Chat-Erweiterungen für Visual Studio Code Ein GitHub-Konto mit einem aktiven Abonnement für GitHub Copilot ist erforderlich.
+- Beispielcodeprojekte, die mit C# erstellt wurden
 
-**NOTE**: We recommend that instructors consider using their own GitHub account and GitHub Copilot subscription for the demos. This will enable you to control and customize your dev environment. It will also make it easier to adjust the demos to fit the needs of your classrooms.
+**HINWEIS:** Wir empfehlen, dass Kursleitende die Verwendung ihres eigenen GitHub-Kontos und GitHub Copilot-Abonnements für die Demos in Betracht ziehen. Auf diese Weise können Sie Ihre Entwicklungsumgebung steuern und anpassen. Außerdem wird es einfacher, die Demos an die Bedürfnisse der Kurse anzupassen.
 
-**IMPORTANT**: If you choose to run the demos in the hosted lab environment rather than your instructor PC, you can unzip the sample apps in the hosted environment. You will need to configure the GitHub Copilot extensions in the hosted environment before you can run the demos. You may find that the hosted environment is slower than your local environment, so you may need to adjust the pace of the demos accordingly.
+**WICHTIG:** Wenn Sie sich entscheiden, die Demos in der gehosteten Labumgebung und nicht auf dem Kursleiter-PC auszuführen, können Sie die Beispiel-Apps in der gehosteten Umgebung entzippen. Sie müssen die GitHub Copilot-Erweiterungen in der gehosteten Umgebung konfigurieren, bevor Sie die Demos ausführen können. Möglicherweise stellen Sie fest, dass die gehostete Umgebung langsamer ist als Ihre lokale Umgebung. Daher müssen Sie möglicherweise das Tempo der Demos entsprechend anpassen.
 
-### Introduce the demo
+### Einführen der Demo
 
-Creating documentation is an important part of software development. Inline documentation helps developers understand the codebase, its purpose, and how to use it. Project documentation provides interested parties with information that's essential for understanding the project's scope and purpose.
+Die Erstellung von Dokumentationen ist ein wichtiger Bestandteil der Softwareentwicklung. Inlinedokumentation unterstützt Entwickler dabei, die Codebasis, ihren Zweck und ihre Verwendung zu verstehen. Die Projektdokumentation bietet Interessierten Informationen, die für das Verständnis des Umfangs und Zwecks des Projekts von wesentlicher Bedeutung sind.
 
-Project documentation often includes the following sections:
+Die Projektdokumentation enthält häufig die folgenden Abschnitte:
 
-- **Project Overview**: A high-level summary of the project, its purpose, and its goals.
-- **Project Requirements**: A list of the project's requirements, including functional and nonfunctional requirements.
-- **Project Constraints**: Any constraints that affect the project, such as time, budget, or technical constraints.
-- **Project Dependencies**: A list of the project's dependencies, including libraries, frameworks, and other components that the project relies on.
-- **Project Summary**: A brief summary of the project, its purpose, and its goals.
+- **Projektüberblick**: Eine allgemeine Zusammenfassung des Projekts, seines Zwecks und seiner Ziele.
+- **Anforderungen des Projekts** Eine Liste der Anforderungen des Projekts, einschließlich funktionaler und nicht funktionaler Anforderungen.
+- **Projekteinschränkungen**: Alle Einschränkungen, die sich auf das Projekt auswirken, z. B. Zeit, Budget oder technische Einschränkungen.
+- **Projektabhängigkeiten**: Eine Liste der Projektabhängigkeiten, einschließlich Bibliotheken, Frameworks und anderer Komponenten, auf denen das Projekt basiert.
+- **Projektzusammenfassung**: Eine kurze Zusammenfassung des Projekts, seines Zwecks und seiner Ziele.
 
-In this demonstration, you use GitHub Copilot Chat to generate project documentation for the `APL2007M2Sample1` project.
+In dieser Demo verwenden Sie GitHub Copilot Chat, um eine Projektdokumentation für das `APL2007M2Sample1`-Projekt zu erstellen.
 
 > [!IMPORTANT]
-> Instructors should emphasize the importance of reviewing the documentation suggested by GitHub Copilot. Developers need to verify accuracy and completeness. The documentation generated by GitHub Copilot is a starting point. You may need to add, remove, or modify the content to meet the specific needs of your project.
+> Kursleitende sollten betonen, wie wichtig es ist, die von GitHub Copilot vorgeschlagene Dokumentation zu überprüfen. Entwickelnde müssen die Genauigkeit und Vollständigkeit überprüfen. Die von GitHub Copilot generierte Dokumentation ist ein Ausgangspunkt. Möglicherweise müssen Sie den Inhalt hinzufügen, entfernen oder ändern, um die spezifischen Anforderungen Ihres Projekts zu erfüllen.
 
-### Generate project documentation for the APL2007M2Sample1 project
+### Generieren der Projektdokumentation für das APL2007M2Sample1-Projekt
 
-Project documentation can be generated in Visual Studio Code using the Chat view and `@workspace` participant. You can include natural language descriptions to generate specific sections of the project documentation, such as the project overview, requirements, constraints, dependencies, and summary. You can also use GitHub Copilot Chat to generate specific types of documentation files, such as a `readme.md` file.
+Die Projektdokumentation kann in Visual Studio Code mithilfe der Chatansicht und des `@workspace`-Teilnehmers generiert werden. Sie können Beschreibungen in natürlicher Sprache einfügen, um bestimmte Abschnitte der Projektdokumentation zu generieren, z. B. die Projektübersicht, Anforderungen, Einschränkungen, Abhängigkeiten sowie die Zusammenfassung. Sie können auch GitHub Copilot Chat verwenden, um bestimmte Arten von Dokumentationsdateien zu generieren, z. B. eine `readme.md`-Datei.
 
-1. Ensure that you have the `APL2007M2Sample1` project open in Visual Studio Code.
+1. Stellen Sie sicher, dass das `APL2007M2Sample1`-Projekt in Visual Studio Code geöffnet ist.
 
-1. To open the Chat view, select **Open Chat**.
+1. Wählen Sie **Chat öffnen** aus, um die Chatansicht zu öffnen.
 
-1. In the Chat view, to generate documentation for the workspace, enter the following prompt:
+1. Geben Sie in der Chatansicht zum Generieren der Dokumentation für den Arbeitsbereich die folgende Eingabeaufforderung ein:
 
     ```output
     @workspace document this project
     ```
 
-1. Take a minute to review the project documentation generated for the `APL2007M2Sample1` project.
+1. Nehmen Sie sich eine Minute Zeit, um die für das `APL2007M2Sample1`-Projekt generierte Projektdokumentation zu überprüfen.
 
-    Notice that the suggested project documentation is similar to the project explanation generated in the previous unit.
+    Beachten Sie, dass die vorgeschlagene Projektdokumentation mit der in der vorherigen Einheit generierten Projekterklärung vergleichbar ist.
 
-    By appending prompts like "document the project constraints" or "document the project dependencies," you can get detailed information about the project.
+    Indem Sie Eingabeaufforderungen wie "Projekteinschränkungen dokumentieren" oder "Projektabhängigkeiten dokumentieren" anfügen, erhalten Sie detaillierte Informationen zum Projekt.
 
-1. In the Chat view, to generate documentation that describes the project dependencies, enter the following prompt:
+1. Geben Sie in der Chatansicht die Dokumentation zur Beschreibung der Projektabhängigkeiten ein:
 
     ```output
     @workspace document the project dependencies
     ```
 
-1. Take a minute to review the project dependencies documentation.
+1. Nehmen Sie sich eine Minute Zeit, um die Dokumentation zu Projektabhängigkeiten zu überprüfen.
 
-    The response generated by Copilot Chat should be similar to the following information:
+    Die von Copilot Chat generierte Antwort sollte in etwa den folgenden Informationen entsprechen:
 
-    GitHub Copilot Chat can help you document any aspect of your projects. You can use the Chat view to generate documentation for specific files, classes, or functions within the project. The size and complexity of the project helps determine the level of detail required.
+    GitHub Copilot Chat kann Ihnen dabei helfen, beliebige Aspekte Ihrer Projekte zu dokumentieren. Sie können die Chatansicht verwenden, um Dokumentationen für bestimmte Dateien, Klassen oder Funktionen innerhalb des Projekts zu generieren. Die Größe und Komplexität des Projekts helfen dabei, den erforderlichen Detailgrad zu bestimmen.
 
-    If time permits, use the Chat view to generate documentation for the following project sections:
+    Wenn die Zeit dies zulässt, verwenden Sie die Chatansicht, um Dokumentationen für die folgenden Projektabschnitte zu generieren:
 
-    - Project requirements
-    - Project constraints
-    - Project architecture
-    - Project design
-    - Project testing
-    - Project deployment
-    - Project summary
+    - Anforderungen des Projekts
+    - Projekteinschränkungen
+    - Projektarchitektur
+    - Projektentwurf
+    - Projekttests
+    - Projektbereitstellung
+    - Projektzusammenfassung
 
-    You can tailor the project documentation generated by Copilot Chat to the specific needs of your project and its stakeholders.
+    Sie können die von Copilot Chat generierte Projektdokumentation an die spezifischen Anforderungen Ihres Projekts und der Projektbeteiligten anpassen.
 
-1. In the Chat view, to generate a README for the `APL2007M2Sample1` project, enter the following prompt:
+1. Geben Sie in der Chatansicht zum Generieren einer README-Datei für das `APL2007M2Sample1`-Projekt die folgende Eingabeaufforderung ein:
 
     ```output
     @workspace generate a readme document that can be used as a repo description
     ```
 
-1. Take a minute to review the README generated for the `APL2007M2Sample1` project.
+1. Nehmen Sie sich eine Minute Zeit, um die für das `APL2007M2Sample1`-Projekt generierte README-Datei zu überprüfen.
 
-    The README file content generated by Copilot Chat provides a high-level overview of the project with several sections that are often included in this type of file.
+    Der von Copilot Chat generierte README-Dateiinhalt bietet eine allgemeine Übersicht über das Projekt mit mehreren Abschnitten, die häufig in diesem Dateityp enthalten sind.
 
-    You can adjust the prompt to specify specific README sections. You can also write individual prompts to generate specific sections of a README document.
+    Sie können den Prompt anpassen, um bestimmte Infodateiabschnitte anzugeben. Sie können auch einzelne Eingabeaufforderungen schreiben, um bestimmte Abschnitte eines README-Dokuments zu generieren.
 
     > [!NOTE]
-    > If you want the README document formatted as a markdown file, you can enter a prompt that's similar to the following prompt: `generate readme project documentation formatted using a raw markdown format`. If GitHub Copilot is configured to work with markdown files, you can use the inline chat feature to format the README document as a markdown file.
+    > Wenn das Infodateidokument als Markdowndatei formatiert werden soll, können Sie einen Prompt wie den folgenden eingeben: `generate readme project documentation formatted using a raw markdown format`. Wenn GitHub Copilot für die Verwendung von Markdowndateien konfiguriert ist, können Sie das Inlinechatfeature verwenden, um das Infodateidokument als Markdowndatei zu formatieren.
 
-### Summary
+### Zusammenfassung
 
-In this demo, you used GitHub Copilot Chat to generate project documentation for the `APL2007M2Sample1` project. By using the Chat view and the `@workspace` participant, you were able to generate documentation for the project overview, requirements, constraints, dependencies, and summary. You also generated a README file for the `APL2007M2Sample1` project. By using Copilot Chat to generate project documentation, you can create a high-level overview that helps other developers understand the project and its goals. Remember to review the documentation generated by Copilot Chat to ensure accuracy and completeness.
+In dieser Demo haben Sie GitHub Copilot Chat verwendet, um eine Projektdokumentation für das `APL2007M2Sample1`-Projekt zu erstellen. Mithilfe der Chatansicht und des `@workspace`-Teilnehmers konnten Sie Dokumentationen für die Projektübersicht, Anforderungen, Einschränkungen, Abhängigkeiten und Zusammenfassungen generieren. Sie haben auch eine README-Datei für das `APL2007M2Sample1`-Projekt generiert. Durch das Generieren einer Projektdokumentation mit Copilot Chat können Sie eine allgemeine Übersicht erstellen, die anderen Entwicklern hilft, das Projekt und seine Ziele zu verstehen. Denken Sie daran, die von Copilot Chat generierte Dokumentation zu überprüfen, um Genauigkeit und Vollständigkeit sicherzustellen.
